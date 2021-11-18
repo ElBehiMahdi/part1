@@ -31,6 +31,7 @@ const Hello = ({name, age}) => {
   )
 }
 
+/*
 const App = () => {
 
   const now = new Date()
@@ -59,6 +60,13 @@ const App = () => {
       </p>
     </div>
 
+    )
+  }
+  */
+  const App = (props) => {
+    const {counter} = props
+    return (
+      <div><h1>{counter}</h1></div>
     )
   }
 
